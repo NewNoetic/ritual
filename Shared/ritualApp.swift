@@ -11,7 +11,7 @@ import SwiftUI
 struct ritualApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            MainView()
         }
     }
 }
