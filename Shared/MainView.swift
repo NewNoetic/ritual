@@ -11,6 +11,7 @@ struct MainView: View {
     @State var pageIndex = 0
     @State var questions = QuestionData().questions
     @State var colors = ColorPalatte().generated(count: QuestionData().questions.count)
+    @State var showAbout = false
     
     var body: some View {
         GeometryReader { geometry in
@@ -27,10 +28,13 @@ struct MainView: View {
                     }
                     Spacer()
                     Button {
-
+                        self.showAbout = true
                     } label: {
                         Image(systemName: "info.circle")
                             .font(/*@START_MENU_TOKEN@*/.title/*@END_MENU_TOKEN@*/)
+                    }
+                    .sheet(isPresented: $showAbout) {
+                        AboutView()
                     }
                 }
                 .padding(.horizontal)
@@ -44,7 +48,7 @@ struct MainView: View {
                 }
                 .frame(width: geometry.size.width, height: .infinity, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
                 .tabViewStyle(PageTabViewStyle())
-                .contextMenu {
+                .onTapGesture(count: 2) {
                     #if os(watchOS)
                     Button {
                         withAnimation {
