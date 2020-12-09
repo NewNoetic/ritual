@@ -29,6 +29,16 @@
 		D27EB9102572CF51004C9C85 /* QuestionsData.swift in Sources */ = {isa = PBXBuildFile; fileRef = D27EB90E2572CF51004C9C85 /* QuestionsData.swift */; };
 		D27EB91B25740606004C9C85 /* ColorPalatte.swift in Sources */ = {isa = PBXBuildFile; fileRef = D27EB91A25740606004C9C85 /* ColorPalatte.swift */; };
 		D27EB91C25740606004C9C85 /* ColorPalatte.swift in Sources */ = {isa = PBXBuildFile; fileRef = D27EB91A25740606004C9C85 /* ColorPalatte.swift */; };
+		D29B402625814F2D0055B1D9 /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D29B402525814F2D0055B1D9 /* WidgetKit.framework */; };
+		D29B402825814F2D0055B1D9 /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D29B402725814F2D0055B1D9 /* SwiftUI.framework */; };
+		D29B402D25814F2E0055B1D9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D29B402C25814F2E0055B1D9 /* Assets.xcassets */; };
+		D29B403125814F2E0055B1D9 /* ritual Widget Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = D29B402325814F2D0055B1D9 /* ritual Widget Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		D29B404425814F480055B1D9 /* ritual_Widget_Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D29B403C25814F390055B1D9 /* ritual_Widget_Extension.swift */; };
+		D29B4064258150F70055B1D9 /* QuestionCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = D29B4063258150F70055B1D9 /* QuestionCard.swift */; };
+		D29B4065258150F70055B1D9 /* QuestionCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = D29B4063258150F70055B1D9 /* QuestionCard.swift */; };
+		D29B4066258150F70055B1D9 /* QuestionCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = D29B4063258150F70055B1D9 /* QuestionCard.swift */; };
+		D29B406D258154B50055B1D9 /* QuestionsData.swift in Sources */ = {isa = PBXBuildFile; fileRef = D27EB90E2572CF51004C9C85 /* QuestionsData.swift */; };
+		D29B4074258154BC0055B1D9 /* ColorPalatte.swift in Sources */ = {isa = PBXBuildFile; fileRef = D27EB91A25740606004C9C85 /* ColorPalatte.swift */; };
 		D2A73F7325814A8400923F48 /* AboutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2A73F7225814A8400923F48 /* AboutView.swift */; };
 		D2A73F7425814A8400923F48 /* AboutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2A73F7225814A8400923F48 /* AboutView.swift */; };
 		D2A73F7525814A8400923F48 /* AboutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2A73F7225814A8400923F48 /* AboutView.swift */; };
@@ -48,6 +58,13 @@
 			proxyType = 1;
 			remoteGlobalIDString = D263509A2574334700B3F9D0;
 			remoteInfo = "ritual WatchKit Extension";
+		};
+		D29B402F25814F2E0055B1D9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D277FB502572C17900CE3F41 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D29B402225814F2D0055B1D9;
+			remoteInfo = "ritual Widget ExtensionExtension";
 		};
 /* End PBXContainerItemProxy section */
 
@@ -70,6 +87,17 @@
 			dstSubfolderSpec = 13;
 			files = (
 				D263509C2574334700B3F9D0 /* ritual WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D29B403225814F2E0055B1D9 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				D29B403125814F2E0055B1D9 /* ritual Widget Extension.appex in Embed App Extensions */,
 			);
 			name = "Embed App Extensions";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -100,6 +128,13 @@
 		D277FB782572C1DD00CE3F41 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		D27EB90E2572CF51004C9C85 /* QuestionsData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionsData.swift; sourceTree = "<group>"; };
 		D27EB91A25740606004C9C85 /* ColorPalatte.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorPalatte.swift; sourceTree = "<group>"; };
+		D29B402325814F2D0055B1D9 /* ritual Widget Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "ritual Widget Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D29B402525814F2D0055B1D9 /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
+		D29B402725814F2D0055B1D9 /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
+		D29B402C25814F2E0055B1D9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D29B402E25814F2E0055B1D9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D29B403C25814F390055B1D9 /* ritual_Widget_Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ritual_Widget_Extension.swift; sourceTree = "<group>"; };
+		D29B4063258150F70055B1D9 /* QuestionCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionCard.swift; sourceTree = "<group>"; };
 		D2A73F7225814A8400923F48 /* AboutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -122,6 +157,15 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D29B402025814F2D0055B1D9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D29B402825814F2D0055B1D9 /* SwiftUI.framework in Frameworks */,
+				D29B402625814F2D0055B1D9 /* WidgetKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -168,6 +212,8 @@
 				D277FB652572C17A00CE3F41 /* macOS */,
 				D26350932574334600B3F9D0 /* ritual WatchKit App */,
 				D263509F2574334700B3F9D0 /* ritual WatchKit Extension */,
+				D29B402925814F2D0055B1D9 /* ritual Widget Extension */,
+				D29B402425814F2D0055B1D9 /* Frameworks */,
 				D277FB5D2572C17A00CE3F41 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -181,6 +227,7 @@
 				D277FB572572C17A00CE3F41 /* Assets.xcassets */,
 				D27EB90E2572CF51004C9C85 /* QuestionsData.swift */,
 				D27EB91A25740606004C9C85 /* ColorPalatte.swift */,
+				D29B4063258150F70055B1D9 /* QuestionCard.swift */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
@@ -193,6 +240,7 @@
 				D263508C2574334600B3F9D0 /* ritual.app */,
 				D263508F2574334600B3F9D0 /* ritual WatchKit App.app */,
 				D263509B2574334700B3F9D0 /* ritual WatchKit Extension.appex */,
+				D29B402325814F2D0055B1D9 /* ritual Widget Extension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -212,6 +260,25 @@
 				D277FB672572C17A00CE3F41 /* macOS.entitlements */,
 			);
 			path = macOS;
+			sourceTree = "<group>";
+		};
+		D29B402425814F2D0055B1D9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D29B402525814F2D0055B1D9 /* WidgetKit.framework */,
+				D29B402725814F2D0055B1D9 /* SwiftUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D29B402925814F2D0055B1D9 /* ritual Widget Extension */ = {
+			isa = PBXGroup;
+			children = (
+				D29B403C25814F390055B1D9 /* ritual_Widget_Extension.swift */,
+				D29B402C25814F2E0055B1D9 /* Assets.xcassets */,
+				D29B402E25814F2E0055B1D9 /* Info.plist */,
+			);
+			path = "ritual Widget Extension";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -275,10 +342,12 @@
 				D277FB582572C17A00CE3F41 /* Sources */,
 				D277FB592572C17A00CE3F41 /* Frameworks */,
 				D277FB5A2572C17A00CE3F41 /* Resources */,
+				D29B403225814F2E0055B1D9 /* Embed App Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				D29B403025814F2E0055B1D9 /* PBXTargetDependency */,
 			);
 			name = "ritual (iOS)";
 			packageProductDependencies = (
@@ -304,6 +373,23 @@
 			productReference = D277FB642572C17A00CE3F41 /* ritual.app */;
 			productType = "com.apple.product-type.application";
 		};
+		D29B402225814F2D0055B1D9 /* ritual Widget Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D29B403525814F2E0055B1D9 /* Build configuration list for PBXNativeTarget "ritual Widget Extension" */;
+			buildPhases = (
+				D29B401F25814F2D0055B1D9 /* Sources */,
+				D29B402025814F2D0055B1D9 /* Frameworks */,
+				D29B402125814F2D0055B1D9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ritual Widget Extension";
+			productName = "ritual Widget ExtensionExtension";
+			productReference = D29B402325814F2D0055B1D9 /* ritual Widget Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -328,6 +414,9 @@
 					D277FB632572C17A00CE3F41 = {
 						CreatedOnToolsVersion = 12.2;
 					};
+					D29B402225814F2D0055B1D9 = {
+						CreatedOnToolsVersion = 12.2;
+					};
 				};
 			};
 			buildConfigurationList = D277FB532572C17900CE3F41 /* Build configuration list for PBXProject "ritual" */;
@@ -350,6 +439,7 @@
 				D277FB632572C17A00CE3F41 /* ritual (macOS) */,
 				D263508E2574334600B3F9D0 /* ritual WatchKit App */,
 				D263509A2574334700B3F9D0 /* ritual WatchKit Extension */,
+				D29B402225814F2D0055B1D9 /* ritual Widget Extension */,
 			);
 		};
 /* End PBXProject section */
@@ -395,6 +485,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		D29B402125814F2D0055B1D9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D29B402D25814F2E0055B1D9 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -406,6 +504,7 @@
 				D26350DC257433BB00B3F9D0 /* ColorPalatte.swift in Sources */,
 				D26350A52574334700B3F9D0 /* NotificationController.swift in Sources */,
 				D26350D6257433B800B3F9D0 /* QuestionsData.swift in Sources */,
+				D29B4065258150F70055B1D9 /* QuestionCard.swift in Sources */,
 				D26350A92574334700B3F9D0 /* ComplicationController.swift in Sources */,
 				D26350A12574334700B3F9D0 /* ritualApp.swift in Sources */,
 				D26350CB257433A500B3F9D0 /* MainView.swift in Sources */,
@@ -418,6 +517,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D277FB792572C1DD00CE3F41 /* MainView.swift in Sources */,
+				D29B4064258150F70055B1D9 /* QuestionCard.swift in Sources */,
 				D27EB91B25740606004C9C85 /* ColorPalatte.swift in Sources */,
 				D27EB90F2572CF51004C9C85 /* QuestionsData.swift in Sources */,
 				D277FB682572C17A00CE3F41 /* ritualApp.swift in Sources */,
@@ -437,6 +537,17 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		D29B401F25814F2D0055B1D9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D29B404425814F480055B1D9 /* ritual_Widget_Extension.swift in Sources */,
+				D29B406D258154B50055B1D9 /* QuestionsData.swift in Sources */,
+				D29B4066258150F70055B1D9 /* QuestionCard.swift in Sources */,
+				D29B4074258154BC0055B1D9 /* ColorPalatte.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -449,6 +560,11 @@
 			isa = PBXTargetDependency;
 			target = D263509A2574334700B3F9D0 /* ritual WatchKit Extension */;
 			targetProxy = D263509D2574334700B3F9D0 /* PBXContainerItemProxy */;
+		};
+		D29B403025814F2E0055B1D9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D29B402225814F2D0055B1D9 /* ritual Widget Extension */;
+			targetProxy = D29B402F25814F2E0055B1D9 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -489,7 +605,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = WTBNDCHJ5B;
+				DEVELOPMENT_TEAM = CUCB33MFQZ;
 				IBSC_MODULE = ritual_WatchKit_Extension;
 				INFOPLIST_FILE = "ritual WatchKit App/Info.plist";
 				PRODUCT_BUNDLE_IDENTIFIER = com.newnoetic.ritual.watchkitapp;
@@ -509,7 +625,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = WTBNDCHJ5B;
+				DEVELOPMENT_TEAM = CUCB33MFQZ;
 				IBSC_MODULE = ritual_WatchKit_Extension;
 				INFOPLIST_FILE = "ritual WatchKit App/Info.plist";
 				PRODUCT_BUNDLE_IDENTIFIER = com.newnoetic.ritual.watchkitapp;
@@ -529,7 +645,7 @@
 				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"ritual WatchKit Extension/Preview Content\"";
-				DEVELOPMENT_TEAM = WTBNDCHJ5B;
+				DEVELOPMENT_TEAM = CUCB33MFQZ;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = "ritual WatchKit Extension/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -553,7 +669,7 @@
 				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"ritual WatchKit Extension/Preview Content\"";
-				DEVELOPMENT_TEAM = WTBNDCHJ5B;
+				DEVELOPMENT_TEAM = CUCB33MFQZ;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = "ritual WatchKit Extension/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -686,10 +802,11 @@
 		D277FB712572C17A00CE3F41 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = WTBNDCHJ5B;
+				DEVELOPMENT_TEAM = CUCB33MFQZ;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = iOS/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
@@ -708,10 +825,11 @@
 		D277FB722572C17A00CE3F41 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = WTBNDCHJ5B;
+				DEVELOPMENT_TEAM = CUCB33MFQZ;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = iOS/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
@@ -736,7 +854,7 @@
 				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = WTBNDCHJ5B;
+				DEVELOPMENT_TEAM = CUCB33MFQZ;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = macOS/Info.plist;
@@ -760,7 +878,7 @@
 				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = WTBNDCHJ5B;
+				DEVELOPMENT_TEAM = CUCB33MFQZ;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = macOS/Info.plist;
@@ -773,6 +891,53 @@
 				PRODUCT_NAME = ritual;
 				SDKROOT = macosx;
 				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		D29B403325814F2E0055B1D9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CUCB33MFQZ;
+				INFOPLIST_FILE = "ritual Widget Extension/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.newnoetic.ritual.widgetextension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D29B403425814F2E0055B1D9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CUCB33MFQZ;
+				INFOPLIST_FILE = "ritual Widget Extension/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.newnoetic.ritual.widgetextension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
@@ -829,6 +994,15 @@
 			buildConfigurations = (
 				D277FB742572C17A00CE3F41 /* Debug */,
 				D277FB752572C17A00CE3F41 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D29B403525814F2E0055B1D9 /* Build configuration list for PBXNativeTarget "ritual Widget Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D29B403325814F2E0055B1D9 /* Debug */,
+				D29B403425814F2E0055B1D9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
