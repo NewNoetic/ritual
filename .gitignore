@@ -8,3 +8,4 @@ build/
 *.DSYM.zip
 ritual.xcodeproj/xcuserdata/
 .DS_Store
+fastlane/report.xml
