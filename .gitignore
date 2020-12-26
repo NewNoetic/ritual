@@ -1,2 +1,10 @@
-
-*.xcbkptlist
+*.xcuserdatad
+screenshots/en-US/
+screenshots/screenshots.html
+fastlane/report.xml
+fastlane/*.html
+build/
+*.ipa
+*.DSYM.zip
+ritual.xcodeproj/xcuserdata/
+.DS_Store
