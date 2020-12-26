@@ -121,7 +121,7 @@
 		D218460F2597C1AE004CABB9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D218461C2597C1CA004CABB9 /* TestHelpers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestHelpers.swift; sourceTree = "<group>"; };
 		D218462C2597C219004CABB9 /* ShowTaps.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShowTaps.swift; sourceTree = "<group>"; };
-		D263508C2574334600B3F9D0 /* ritual.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ritual.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D263508C2574334600B3F9D0 /* Ritual.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Ritual.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D263508F2574334600B3F9D0 /* ritual WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ritual WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D26350942574334700B3F9D0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D26350962574334700B3F9D0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -272,7 +272,7 @@
 			children = (
 				D277FB5C2572C17A00CE3F41 /* ritual.app */,
 				D277FB642572C17A00CE3F41 /* ritual.app */,
-				D263508C2574334600B3F9D0 /* ritual.app */,
+				D263508C2574334600B3F9D0 /* Ritual.app */,
 				D263508F2574334600B3F9D0 /* ritual WatchKit App.app */,
 				D263509B2574334700B3F9D0 /* ritual WatchKit Extension.appex */,
 				D29B402325814F2D0055B1D9 /* ritual Widget Extension.appex */,
@@ -352,7 +352,7 @@
 			);
 			name = ritual;
 			productName = ritual;
-			productReference = D263508C2574334600B3F9D0 /* ritual.app */;
+			productReference = D263508C2574334600B3F9D0 /* Ritual.app */;
 			productType = "com.apple.product-type.application.watchapp2-container";
 		};
 		D263508E2574334600B3F9D0 /* ritual WatchKit App */ = {
@@ -451,7 +451,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1230;
-				LastUpgradeCheck = 1220;
+				LastUpgradeCheck = 1230;
 				TargetAttributes = {
 					D218460A2597C1AE004CABB9 = {
 						CreatedOnToolsVersion = 12.3;
@@ -702,7 +702,7 @@
 				DEVELOPMENT_TEAM = WTBNDCHJ5B;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.newnoetic.ritual;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Ritual;
 				SDKROOT = iphoneos;
 				SWIFT_VERSION = 5.0;
 			};
@@ -716,7 +716,7 @@
 				DEVELOPMENT_TEAM = WTBNDCHJ5B;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.newnoetic.ritual;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Ritual;
 				SDKROOT = iphoneos;
 				SWIFT_VERSION = 5.0;
 				VALIDATE_PRODUCT = YES;
@@ -977,6 +977,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = CUCB33MFQZ;
@@ -1001,6 +1002,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = CUCB33MFQZ;
