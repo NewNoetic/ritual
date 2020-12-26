@@ -134,6 +134,12 @@
 		D26350AD2574334800B3F9D0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		D26350AF2574334800B3F9D0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D26350B02574334800B3F9D0 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		D26751CD2597DEB90000ABF8 /* Appfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Appfile; sourceTree = "<group>"; };
+		D26751CE2597DEB90000ABF8 /* Fastfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Fastfile; sourceTree = "<group>"; };
+		D26751CF2597DEB90000ABF8 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		D26751D12597DEB90000ABF8 /* report.xml */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = report.xml; sourceTree = "<group>"; };
+		D26751D22597DEB90000ABF8 /* Snapfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Snapfile; sourceTree = "<group>"; };
+		D26751DA2597E0420000ABF8 /* Framefile.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = Framefile.json; path = screenshots/Framefile.json; sourceTree = SOURCE_ROOT; };
 		D277FB552572C17900CE3F41 /* ritualApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ritualApp.swift; sourceTree = "<group>"; };
 		D277FB572572C17A00CE3F41 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D277FB5C2572C17A00CE3F41 /* ritual.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ritual.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -237,6 +243,27 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		D26751CC2597DEB90000ABF8 /* fastlane */ = {
+			isa = PBXGroup;
+			children = (
+				D26751DA2597E0420000ABF8 /* Framefile.json */,
+				D26751CD2597DEB90000ABF8 /* Appfile */,
+				D26751CE2597DEB90000ABF8 /* Fastfile */,
+				D26751CF2597DEB90000ABF8 /* README.md */,
+				D26751D02597DEB90000ABF8 /* metadata */,
+				D26751D12597DEB90000ABF8 /* report.xml */,
+				D26751D22597DEB90000ABF8 /* Snapfile */,
+			);
+			path = fastlane;
+			sourceTree = "<group>";
+		};
+		D26751D02597DEB90000ABF8 /* metadata */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = metadata;
+			sourceTree = "<group>";
+		};
 		D277FB4F2572C17900CE3F41 = {
 			isa = PBXGroup;
 			children = (
@@ -247,6 +274,7 @@
 				D263509F2574334700B3F9D0 /* ritual WatchKit Extension */,
 				D29B402925814F2D0055B1D9 /* ritual Widget Extension */,
 				D218460C2597C1AE004CABB9 /* ritualUITests */,
+				D26751CC2597DEB90000ABF8 /* fastlane */,
 				D29B402425814F2D0055B1D9 /* Frameworks */,
 				D277FB5D2572C17A00CE3F41 /* Products */,
 			);

@@ -1,0 +1,36 @@
+{
+  "default": {
+    "keyword": {
+    },
+    "title": {
+      "color": "#000000",
+      "font_weight": "700"
+    },
+    "font_scale_factor": 0.2,
+    "title_min_height": "30%",
+    "interline_spacing": 20,
+    "background": "./background.jpg",
+    "padding": 50
+  },
+
+  "data": [
+    {
+      "filter": "",
+      "title": {
+        "text": ""
+      }
+    },
+    {
+      "filter": "",
+      "title": {
+        "text": ""
+      }
+    },
+    {
+      "filter": "",
+      "title": {
+        "text": ""
+      }
+    }
+  ]
+}
