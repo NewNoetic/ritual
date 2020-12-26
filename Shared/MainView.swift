@@ -50,6 +50,7 @@ struct MainView: View {
                         #endif
                     }
                 }
+                .padding(.bottom)
                 .frame(width: geometry.size.width, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
                 .tabViewStyle(PageTabViewStyle())
                 .onTapGesture(count: 2) {
@@ -60,6 +61,15 @@ struct MainView: View {
                     #endif
                 }
             }
+        }
+        .onAppear {
+            #if os(iOS)
+            if CommandLine.arguments.contains("--showTaps") {
+                ShowTaps.enabled = .debugOnly
+            } else {
+                ShowTaps.enabled = .never
+            }
+            #endif
         }
     }
 }

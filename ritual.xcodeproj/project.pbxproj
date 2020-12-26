@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D218460E2597C1AE004CABB9 /* ritualUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D218460D2597C1AE004CABB9 /* ritualUITests.swift */; };
+		D218461D2597C1CA004CABB9 /* TestHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = D218461C2597C1CA004CABB9 /* TestHelpers.swift */; };
+		D218462D2597C219004CABB9 /* ShowTaps.swift in Sources */ = {isa = PBXBuildFile; fileRef = D218462C2597C219004CABB9 /* ShowTaps.swift */; };
+		D218462E2597C219004CABB9 /* ShowTaps.swift in Sources */ = {isa = PBXBuildFile; fileRef = D218462C2597C219004CABB9 /* ShowTaps.swift */; };
 		D26350902574334600B3F9D0 /* ritual WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = D263508F2574334600B3F9D0 /* ritual WatchKit App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		D26350952574334700B3F9D0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D26350942574334700B3F9D0 /* Assets.xcassets */; };
 		D263509C2574334700B3F9D0 /* ritual WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = D263509B2574334700B3F9D0 /* ritual WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
@@ -45,6 +49,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		D21846102597C1AE004CABB9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D277FB502572C17900CE3F41 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D277FB5B2572C17A00CE3F41;
+			remoteInfo = "ritual (iOS)";
+		};
 		D26350912574334600B3F9D0 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D277FB502572C17900CE3F41 /* Project object */;
@@ -105,6 +116,11 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		D218460B2597C1AE004CABB9 /* ritualUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ritualUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D218460D2597C1AE004CABB9 /* ritualUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ritualUITests.swift; sourceTree = "<group>"; };
+		D218460F2597C1AE004CABB9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D218461C2597C1CA004CABB9 /* TestHelpers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestHelpers.swift; sourceTree = "<group>"; };
+		D218462C2597C219004CABB9 /* ShowTaps.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShowTaps.swift; sourceTree = "<group>"; };
 		D263508C2574334600B3F9D0 /* ritual.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ritual.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D263508F2574334600B3F9D0 /* ritual WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ritual WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D26350942574334700B3F9D0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -139,6 +155,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		D21846082597C1AE004CABB9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		D26350982574334700B3F9D0 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -172,6 +195,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D218460C2597C1AE004CABB9 /* ritualUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D218461C2597C1CA004CABB9 /* TestHelpers.swift */,
+				D218460D2597C1AE004CABB9 /* ritualUITests.swift */,
+				D218460F2597C1AE004CABB9 /* Info.plist */,
+			);
+			path = ritualUITests;
+			sourceTree = "<group>";
+		};
 		D26350932574334600B3F9D0 /* ritual WatchKit App */ = {
 			isa = PBXGroup;
 			children = (
@@ -213,6 +246,7 @@
 				D26350932574334600B3F9D0 /* ritual WatchKit App */,
 				D263509F2574334700B3F9D0 /* ritual WatchKit Extension */,
 				D29B402925814F2D0055B1D9 /* ritual Widget Extension */,
+				D218460C2597C1AE004CABB9 /* ritualUITests */,
 				D29B402425814F2D0055B1D9 /* Frameworks */,
 				D277FB5D2572C17A00CE3F41 /* Products */,
 			);
@@ -221,6 +255,7 @@
 		D277FB542572C17900CE3F41 /* Shared */ = {
 			isa = PBXGroup;
 			children = (
+				D218462C2597C219004CABB9 /* ShowTaps.swift */,
 				D277FB552572C17900CE3F41 /* ritualApp.swift */,
 				D277FB782572C1DD00CE3F41 /* MainView.swift */,
 				D2A73F7225814A8400923F48 /* AboutView.swift */,
@@ -241,6 +276,7 @@
 				D263508F2574334600B3F9D0 /* ritual WatchKit App.app */,
 				D263509B2574334700B3F9D0 /* ritual WatchKit Extension.appex */,
 				D29B402325814F2D0055B1D9 /* ritual Widget Extension.appex */,
+				D218460B2597C1AE004CABB9 /* ritualUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -284,6 +320,24 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		D218460A2597C1AE004CABB9 /* ritualUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D21846142597C1AE004CABB9 /* Build configuration list for PBXNativeTarget "ritualUITests" */;
+			buildPhases = (
+				D21846072597C1AE004CABB9 /* Sources */,
+				D21846082597C1AE004CABB9 /* Frameworks */,
+				D21846092597C1AE004CABB9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D21846112597C1AE004CABB9 /* PBXTargetDependency */,
+			);
+			name = ritualUITests;
+			productName = ritualUITests;
+			productReference = D218460B2597C1AE004CABB9 /* ritualUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
 		D263508B2574334600B3F9D0 /* ritual */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = D26350BB2574334800B3F9D0 /* Build configuration list for PBXNativeTarget "ritual" */;
@@ -396,9 +450,13 @@
 		D277FB502572C17900CE3F41 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 1220;
+				LastSwiftUpdateCheck = 1230;
 				LastUpgradeCheck = 1220;
 				TargetAttributes = {
+					D218460A2597C1AE004CABB9 = {
+						CreatedOnToolsVersion = 12.3;
+						TestTargetID = D277FB5B2572C17A00CE3F41;
+					};
 					D263508B2574334600B3F9D0 = {
 						CreatedOnToolsVersion = 12.2;
 					};
@@ -440,11 +498,19 @@
 				D263508E2574334600B3F9D0 /* ritual WatchKit App */,
 				D263509A2574334700B3F9D0 /* ritual WatchKit Extension */,
 				D29B402225814F2D0055B1D9 /* ritual Widget Extension */,
+				D218460A2597C1AE004CABB9 /* ritualUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		D21846092597C1AE004CABB9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		D263508A2574334600B3F9D0 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -496,6 +562,16 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		D21846072597C1AE004CABB9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D218460E2597C1AE004CABB9 /* ritualUITests.swift in Sources */,
+				D218462E2597C219004CABB9 /* ShowTaps.swift in Sources */,
+				D218461D2597C1CA004CABB9 /* TestHelpers.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		D26350972574334700B3F9D0 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -522,6 +598,7 @@
 				D27EB90F2572CF51004C9C85 /* QuestionsData.swift in Sources */,
 				D277FB682572C17A00CE3F41 /* ritualApp.swift in Sources */,
 				D2A73F7325814A8400923F48 /* AboutView.swift in Sources */,
+				D218462D2597C219004CABB9 /* ShowTaps.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -551,6 +628,11 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		D21846112597C1AE004CABB9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D277FB5B2572C17A00CE3F41 /* ritual (iOS) */;
+			targetProxy = D21846102597C1AE004CABB9 /* PBXContainerItemProxy */;
+		};
 		D26350922574334600B3F9D0 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = D263508E2574334600B3F9D0 /* ritual WatchKit App */;
@@ -569,6 +651,49 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		D21846122597C1AE004CABB9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CUCB33MFQZ;
+				INFOPLIST_FILE = ritualUITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.newnoetic.ritualUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "ritual (iOS)";
+			};
+			name = Debug;
+		};
+		D21846132597C1AE004CABB9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CUCB33MFQZ;
+				INFOPLIST_FILE = ritualUITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.newnoetic.ritualUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "ritual (iOS)";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
 		D26350B12574334800B3F9D0 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -944,6 +1069,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		D21846142597C1AE004CABB9 /* Build configuration list for PBXNativeTarget "ritualUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D21846122597C1AE004CABB9 /* Debug */,
+				D21846132597C1AE004CABB9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		D26350B92574334800B3F9D0 /* Build configuration list for PBXNativeTarget "ritual WatchKit Extension" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
