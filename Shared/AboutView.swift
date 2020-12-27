@@ -37,7 +37,7 @@ struct AboutView: View {
                 .font(.largeTitle)
                 .fontWeight(.bold)
             Text("\(appName) is based on the psychology study ") + Text("The Experimental Generation of Interpersonal Closeness: A Procedure and Some Preliminary Findings by Arthur Aron et al.").italic()
-            Text("Questions asked during that study allowed researchers to control how close to one another two participants could get.")
+            Text("Questions asked during that study allowed researchers to control how close to one another two participants could get. Use the same questions as an activity to get closer to people in your life.")
             Button("↗ Learn more") {
                 UIApplication.shared.open(essayUrl, options: [:])
             }
