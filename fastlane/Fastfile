@@ -115,8 +115,8 @@ platform :ios do
       
       upload_to_app_store(
           force: true, # skips HTML report generation
-          ipa: "./build/ritual.ipa"
-          screenshots_path: "./screenshots"
+          ipa: "./build/ritual.ipa",
+          screenshots_path: "./screenshots",
           overwrite_screenshots: true
       )
   end
