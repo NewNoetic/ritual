@@ -38,6 +38,16 @@
                ReferencedContainer = "container:ritual.xcodeproj">
             </BuildableReference>
          </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "D2222BB326B0F0A100F1A949"
+               BuildableName = "ritualSnapshotTests.xctest"
+               BlueprintName = "ritualSnapshotTests"
+               ReferencedContainer = "container:ritual.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
    </TestAction>
    <LaunchAction
