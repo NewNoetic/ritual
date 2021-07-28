@@ -49,8 +49,5 @@ class ritualSnapshotTests: XCTestCase {
         snapshot("3")
         app.swipeLeft()
         sleep(2)
-        snapshot("4")
-        app.buttons["arrow.clockwise.circle"].tap()
-        sleep(2)
     }
 }
