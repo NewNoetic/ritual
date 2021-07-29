@@ -9,9 +9,18 @@ import SwiftUI
 
 @main
 struct ritualApp: App {
+    @UIApplicationDelegateAdaptor(AppDelegate.self) var appDelegate
+    
     var body: some Scene {
         WindowGroup {
-            MainView()
+            Group {
+                switch (AppState.shared.startView) {
+                case .intro1:
+                    IntroView()
+                case .ritual1:
+                    MainView()
+                }
+            }.environmentObject(AppState.shared)
         }
     }
 }

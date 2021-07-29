@@ -31,17 +31,15 @@ struct AboutView: View {
     var essayUrl = URL(string: "https://whatif.sg.life/the-experimental-generation-of-interpersonal-closeness")!
     var body: some View {
         VStack(alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/, spacing: 50) {
-            Spacer()
             AppIcon()
             Text("About \(appName)")
                 .font(.largeTitle)
                 .fontWeight(.bold)
             Text("\(appName) is based on the psychology study ") + Text("The Experimental Generation of Interpersonal Closeness: A Procedure and Some Preliminary Findings by Arthur Aron et al.").italic()
             Text("Questions asked during that study allowed researchers to control how close to one another two participants could get. Use the same questions as an activity to get closer to people in your life.")
-            Button("↗ Learn more") {
-                UIApplication.shared.open(essayUrl, options: [:])
-            }
-            Spacer()
+//            Button("↗ Learn more") {
+//                UIApplication.shared.open(essayUrl, options: [:])
+//            }
         }
         .padding()
     }
