@@ -8,6 +8,7 @@
 import SwiftUI
 
 struct MainView: View {
+    @ObservedObject static var settings = AppSettings()
     public static var accentColor = Color(red: 254.0/255.0, green: 1, blue: 198.0/255.0)
     @State var pageIndex = 0
     @State var questions = QuestionData().questions
