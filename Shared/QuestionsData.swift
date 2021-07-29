@@ -31,12 +31,12 @@ struct QuestionData {
         "What does friendship mean to you?",
         "What roles do you love and affection play in your life?",
         "Alternate sharing something you consider a positive characteristic of your partner. Share a total of 5 items.",
-        "How close and warm in your family? Do you feel your childhood was happier than most other people’s?",
+        "How close and warm is your family? Do you feel your childhood was happier than most other people’s?",
         "How do you feel about your relationship with your mother?",
-        "Make 3 true “ we” statements each. For instance, “ We are both in the room feeling …”",
-        "Complete the sentence: “ I wish I had someone with whom I could share …”",
+        "Make 3 true “we” statements each. For instance, “We are both feeling …”",
+        "Complete the sentence: “I wish I had someone with whom I could share …”",
         "If you were going to become a close friend with your partner, please share what would be important for him or her to know.",
-        "Tell your partner what you like about them, be very honest this time saying thing you might not say to someone you’ve just met.",
+        "Tell your partner what you like about them, be very honest this time saying things you might not say to someone you’ve just met.",
         "Share with your partner an embarrassing moment in your life.",
         "When did you last cry in front of another person? By yourself?",
         "Tell your partner something that you like about them already.",
@@ -44,6 +44,6 @@ struct QuestionData {
         "If you were to die this evening with no opportunity to communicate with anyone, what would you most regret not having told someone? Why haven’t you told them yet?",
         "Your home, containing everything you own, catches fire. After saving your loved ones and pets, you have time safely make a final dash to save any one item. What would it be? Why?",
         "Of all the people in your family, whose death would find most disturbing? Why?",
-        "Share a personal problem and ask your partner’s advice on how he or she might handle it. Also, ask your partner to reflect back to you how to seem to be feeling about the problem you have chosen."
+        "Share a personal problem and ask your partner’s advice on how he or she might handle it. Also, ask your partner to reflect back to you what they think about the problem you chose."
     ]
 }
